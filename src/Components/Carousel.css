@@ -1,0 +1,29 @@
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.logo1{
+    
+    box-shadow: 0px 6px 25px rgba(26, 117, 255, 0.9);
+    border-radius: 5px; 
+    transition: transform 0.2s;  
+      margin-bottom: 5rem;
+      height:10rem;
+      width: 10rem;
+}
+.logo1:hover {
+    transform: scale(1.40);
+  }
+.profile{
+    padding-top: 3rem;
+}
+.fluid-container{
+   background:url('../Images/3076.jpg');
+   background-size: cover;
+}
+.name02{
+    box-shadow: 0px 6px 25px rgba(26, 117, 255, 0.9);
+
+}

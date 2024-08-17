@@ -1,0 +1,31 @@
+.popup-image {
+    position: fixed;
+    top: 85%;
+    left: 0;
+    transform: translateY(-100%);
+    animation: slideIn 2s ease-in-out, slideRight 5s ease-in-out forwards 1s;
+    z-index: 1000;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      left: -20%; 
+    }
+    to {
+      opacity: 1;
+      left: 0;
+    }
+  }
+  
+  @keyframes slideRight {
+    from {
+      left: 0;
+    }
+    to {
+      left: 77%;
+    }
+  }
+  .popup-image img {
+    width: 20rem;
+  }

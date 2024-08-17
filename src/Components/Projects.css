@@ -1,0 +1,27 @@
+
+.container-project{
+    display:grid;
+    grid-template-rows: 1fr 4fr;
+    padding:3rem;
+    background:url('../Images/2303.w015.n003.1211B.p15.1211.jpg');
+    background-size: cover;
+
+}
+.row2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap:2rem;
+    
+}
+.card{
+    text-decoration: none;
+    box-shadow: 1px 6px 15px rgba(75, 126, 255, 0.9);
+
+}
+.project-card:hover{
+ transform: scale(1.09);
+}
+.card-body {
+    background: linear-gradient(135deg, #012675, #0981e4);
+}

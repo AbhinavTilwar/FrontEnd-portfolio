@@ -1,7 +1,32 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./Assets/MilkyVintage-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('./Assets/6905463.eps') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont3';
+  src: url('./Assets/Bread\ Coffee.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .App {
   text-align: center;
-}
+  font-family: 'CustomFont3',sans-serif;
+  background-size: cover;
+  cursor: url('./Images/sword.png'), auto;
 
+}
+/* .container-contact{
+  font-family: 'CustomFont',sans-serif;
+
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
